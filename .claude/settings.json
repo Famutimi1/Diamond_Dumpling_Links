@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(find /c/Users/oluwadunsin/AppData/Local/Temp/claude /c/Users/oluwadunsin/Downloads /c/Users/oluwadunsin/Desktop -maxdepth 4 -type f \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.webp\" \\\\\\) -newermt \"2026-08-19 00:00:00\" 2>/dev/null | head -n 40)",
+      "Read(//c/Users/oluwadunsin/AppData/Local/Temp/claude/**)",
+      "Read(//c/Users/oluwadunsin/Downloads/**)",
+      "Bash(cd \"c:/Users/oluwadunsin/Desktop/dd social link\" && cp /c/Users/oluwadunsin/Downloads/dd-logo.jpeg src/assets/logo.jpeg && ls -l src/assets/)",
+      "Bash(git --version)",
+      "Bash(gh auth *)",
+      "Bash(git ls-remote *)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\oluwadunsin\\Downloads"
+    ]
+  }
+}
