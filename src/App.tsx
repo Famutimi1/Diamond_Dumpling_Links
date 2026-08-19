@@ -88,7 +88,7 @@ const icons: Record<IconKey, ReactElement> = {
 // ---------- links ----------
 // Static list — edit these entries to change what visitors see.
 const links: LinkItem[] = [
-  { title: 'Visit Our Website', sub: 'Menu & more', url: 'https://diamonddumpling.com', icon: 'globe', social: true },
+  { title: 'Visit Our Website', sub: 'Menu & more', url: 'https://www.diamonddumpling.com/menu/all', icon: 'globe', social: true },
   { title: 'Share Your Feedback', sub: 'Quick Google Form', url: 'https://docs.google.com/forms/d/e/1FAIpQLSdIuPZVB_lLLlGK2F2tQ-GuDAMm5k3Ap5xhZieMaP_8rYl5wQ/viewform?usp=publish-editor', icon: 'form', social: false },
   { title: 'Leave a Google Review', sub: 'Diamond Dumpling, Abeokuta', url: 'https://share.google/u3a9WFjhUmCln6LMt', icon: 'pin', social: false },
   { title: 'Follow on Instagram', sub: '@diamonddumpling', url: 'https://www.instagram.com/diamond.dumpling?igsi=c3h0MHRqcWl1MjRi&utm_source=qr', icon: 'instagram', social: true },
